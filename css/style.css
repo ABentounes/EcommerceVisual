@@ -1,0 +1,285 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    margin-block-start: auto;
+}
+
+body {
+    margin: 0px;
+}
+
+/*anchor*/
+
+#anchor {
+    position: fixed;
+    top: 40vh;
+    margin-right: 20px;
+    text-align: right;
+    right: 20px;
+    text-decoration: none;
+}
+
+#anchor ul {
+    list-style-type: none;
+}
+
+#anchor a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* pannel background position*/
+
+#firstPannel {
+    background-color: #000022;
+    height: 100vh;
+    width: 100vw;
+}
+
+#secPannel {
+    background-color: #f0deb4;
+    height: 100vh;
+    width: 100vw;
+}
+
+#thirdPannel {
+    background-image: url("../image/study_background.jpg");
+    height: 100vh;
+    width: 100vw;
+}
+
+#fourthPannel {
+    background-image: url("../image/work_background.png");
+    background-size: 100vw 130vh;
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw;
+}
+
+#fithPannel {
+    background: linear-gradient(white, #229aca);
+    background-size: 100vw 130vh;
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw;
+}
+
+#sixthPannel {
+    background-image: url("../image/Dev_Background.jpg");
+    background-size: 100vw 130vh;
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw;
+}
+
+#seventhPannel {
+    background-image: url("../image/Controler_background.jpg");
+    background-size: 100vw 130vh;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+}
+
+#eighthPannel {
+    background-image: url("../image/Phone_Contact.jpg");
+    background-color: #0a0a0a;
+    background-size: 80vw 130vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* first pannel style*/
+
+#firstPannel h1 {
+    color: white;
+    font-size: 300px;
+    margin: 0px;
+    text-align: center;
+    transform: translateY(15vh);
+}
+
+#firstPannel h2 {
+    color: white;
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+    transform: translateY(20vh);
+}
+
+/* second pannel style*/
+
+#PP {
+    position: absolute;
+    width: 360px;
+    height: 440px;
+    border-radius: 50%;
+    margin-top: 7%;
+    margin-left: 60%;
+}
+
+#secPannel h2 {
+    margin: 0px;
+    margin-left: 20px;
+    transform: translateY(15vh);
+    font-size: 50px;
+}
+
+#secPannel div {
+    margin-top: 220px;
+    margin-left: 20px;
+    font-size: 30px;
+    width: 50%;
+}
+
+#secPannel a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* third pannel style*/
+
+#thirdPannel h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 70px;
+    text-align: center;
+    transform: translateY(5vh);
+}
+
+#thirdPannel li {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: left;
+    transform: translateY(10vh);
+}
+
+/* fourth pannel style*/
+
+#fourthPannel h1 {
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: -20px;
+    text-align: center;
+    transform: translateY(5vh);
+}
+
+#fourthPannel li {
+    color: black;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    transform: translateY(10vh);
+}
+
+/* fith pannel style*/
+
+#fithPannel h1 {
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    transform: translateY(5vh);
+}
+
+.language {
+    display: inline-block;
+    width: auto;
+    max-width: 400px;
+    vertical-align: top;
+    margin-left: 50px;
+    transform: translateY(10vh);
+    color: black;
+    font-size: 30px;
+    text-align: left;
+}
+
+.travel {
+    color: black;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    transform: translateY(10vh);
+}
+
+.flags {
+    display: inline-block;
+    width: 400;
+    vertical-align: top;
+    margin-left: 120px;
+    transform: translateY(10vh);
+}
+
+/* sixth pannel style*/
+
+#sixthPannel h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    transform: translateY(5vh);
+}
+
+#sixthPannel li {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    transform: translateY(10vh);
+}
+
+/* seventh pannel style*/
+
+#seventhPannel h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    transform: translateY(5vh);
+}
+
+#seventhPannel li {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: left;
+    transform: translateY(10vh);
+}
+
+/* seventh pannel style*/
+
+#eighthPannel h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    margin-bottom: 70px;
+    text-align: center;
+    transform: translateY(5vh);
+}
+
+#eighthPannel li {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: left;
+    transform: translateY(10vh);
+}
